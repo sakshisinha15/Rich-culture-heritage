@@ -1,0 +1,115 @@
+body{
+    background-image: url("https://www.forbesindia.com/media/images/2023/Sep/img_219457_westernghats_shutterstock_2062700510_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(50%); */
+}
+.india{
+    text-align: center;
+    background-size: cover;
+    /* padding: 20px 10px 20px 10px;
+    margin: 20px 10px 20px 10px; */
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+}
+p{
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+    font-size: larger;
+    font-weight: bold;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #181616;
+    padding: 5px 20px;
+    transition:0.6s ease;
+    border: 1px solid transparent;
+}
+ul li a:hover{
+    background-color: rgb(158, 150, 150);
+    color: black;
+}
+ul li.active a{
+    background-color: rgb(158, 150, 150);
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 30px;
+
+}
+.row{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em 1em;
+    text-align: center;
+    justify-content: center;
+}
+.column{
+    width: 32%;
+    padding-right: 40px;}
+    .card{
+        box-shadow: 0 0 2.2em rgba(140, 120, 167, 0.15);
+        padding: 3.5em 1em;
+        border-radius: 0.6em;
+        color: #f4f3f5;
+        cursor: pointer;
+        text-align: center;
+    
+    }
+    /* .card .img-container{
+        width: 23em;
+        height: 29em;
+        background-color: #434346;
+        padding: 0.5em;
+        border-radius: 50%;
+        margin: 0 auto 2em auto;
+        padding-top: 54px;
+    } */
+    /* .card .img{
+        width: 100%;
+        border-radius: 50%;
+    
+    }
+    .card h3{
+        font-weight: 500;
+    }
+    .card p{
+        font-weight: 300;
+        text-transform: uppercase;
+        margin: 0.5em 0 2em 0;
+        letter-spacing: 2px;
+    }
+    .icons{
+        width: 50%;
+        min-width: 180px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card a{
+        text-decoration: none;
+        color: inherit;
+        font-size: 1.4em;
+    } */
+    img{
+        margin-top: 41px;
+    }
